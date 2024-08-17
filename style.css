@@ -1,0 +1,48 @@
+.bg-primary {
+    background: #222037!important;
+}
+
+.showcase img {
+    margin-bottom: -50px;
+}
+
+.p-6 {
+    padding: 40px;
+}
+
+.bg-light {
+    background: #c4c4c4!important;
+    border: none;
+}
+
+::placeholder{
+    color: #4d4d4d;
+    font-weight: 300;
+}
+
+.bg-secondary {
+    background: #403e53!important;
+    border: none;
+}
+
+.btn-secondary {
+    background: c111f5;
+    border: none;
+}
+
+/* MOBILE */
+@media (max-width: 768px){
+    .showcase {
+        text-align: center;
+        padding: 0!important;
+    }
+    .showcase {
+        margin-bottom: 30px!important;
+    }
+    .showcase .col-md-5{
+        padding: 10px!important;
+    }
+    .showcase .col-md-5 .card {
+        margin-bottom: 40px;
+    }
+}
